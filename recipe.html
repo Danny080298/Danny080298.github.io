@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Ratatouille Mind</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>What magic do you think?</h1>
+        <p>Posted by Danny Nguyen</p>
+        <p>My passionate of godness food</p>
+    </header> 
+    <section>
+        <h2>Introduction</h2>
+        <p>“If you are what you eat, then I only want to eat the good stuff.” Out of the mouths of rats…</p>
+        <p>Ratatouille is, to this day, one of the best foodie films ever made. 
+            Even Anthony Bourdain thought so! Once you get past the very weird concept of a rat inexplicably being able to control the physical actions of a human man by puppeteering him through his hair (…), Ratatouille’s democratic thesis of “anyone can cook!” is pretty perfectly executed. 
+            In a world where (as Collette aptly points out) haute cuisine is an antiquated hierarchy built upon rules written by stupid, old, men, Remy the rat is challenged not only to push culinary boundaries, but to do so with integrity. 
+            Big props to Patton Oswalt in the title role, who brings a level of earnestness and humility to Remy the rat– not to mention the rest of the stellar voice cast and genius animation from Pixar.</p>
+    </section>
+
+    <section>
+        <h2>Main Content</h2>
+        <ul id="recipes">
+        </ul>
+    
+        <p id="list"></p>
+    
+        <script>
+            const recipes = [
+                { name: "LIGHTNING-Y MUSHROOM PUFFS", 
+                    kind: "lightning-y", 
+                    INGREDIENTS: "3.5 oz mushrooms, preferably chanterelle <pre>1/2 tbsp butter <pre>1/4 tsp minced rosemary <pre>pinch saffron<pre>salt & pepper <pre>1/2 tsp honey<pre> hard goat cheese (if you can find Tomme de Chevre, bless)<pre>1 sheet puff pastry",
+                    INSTRUCTIONS: "Preheat your oven to 400 degrees Fahrenheit. <pre>Heat your butter in a small cast iron skillet.<pre> Chop your mushrooms and add to the pan along with rosemary, saffron, salt, and pepper.<pre> Place in your oven and roast for 10 mins, tossing occasionally.<pre> Your mushrooms should start to brown and get all deliciously crispy charred.<pre> Remove from the oven and stir in your honey, adding a splash of water if the mushrooms are sticking to the pan.<pre> Set aside and allow to come to room temperature."},
+
+                { name: "SYNESTHESIA CHEESE PLATE", 
+                    kind: "cheese plate", 
+                    INGREDIENTS: "1/2 lb chopped strawberries<pre> 1 tsp cornstarch<pre> 2 tbsp sugar<pre>1 1/2 tbsp water<pre>1 tsp balsamic<pre>1/2 tsp lemon juice<pre>pomegranate seeds/arils<pre>chopped walnuts<pre>Camembert cheese <pre>Comte cheese<pre>Mimollette cheese<pre>Champagne<pre>Rose<pre>Cabernet Sauvignon<pre>",
+                    INSTRUCTIONS:"Since Remy's first synesthesia experiment is strawberry meets cheese, I decided to make a super simple strawberry drizzle--<pre> all you have to do is add chopped strawberries, cornstarch, sugar, juice, and (for something a little extra special) balsamic to a small saucepan.<pre> Add a splash of water to help the ingredients mix, bring to a boil, and then allow to simmer until thickened. <pre> Drizzle onto a small plate or cutting board, and arrange your cheeses all fancy like over it.<pre> Sprinkle with pomegranate arils (another favorite of Remy's it seems--see synesthesia moment with Emille) and walnuts for crunch and VOILA, a mix of salty, nutty, sweet, deliciousness!"},
+                { name: "RATATOUILLE", 
+                    kind: "stew", 
+                    INGREDIENTS: "1 1/2 red bell pepper<pre>2 tablespoons extra virgin olive oil, divided<pre>2 cloves minced garlic<pre>1/2 cup finely diced onion<pre>14 oz canned tomatoes <pre>1 sprig thyme<pre>1 sprig flat-leaf parsley<pre>1 small bay leaf<pre>Kosher salt<pre>1 zucchini (4 to 5 ounces) sliced in 1/16-inch rounds<pre>1 Japanese eggplant (4 to 5 ounces) sliced into 1/16-inch rounds<pre>1 yellow squash (4 to 5 ounces) sliced into 1/16-inch round<pre>3 tomatoes on the vine, sliced into 1/16-inch rounds<pre>1/2 teaspoon minced garlic<pre>2 teaspoons olive oil<pre>1/8 teaspoon thyme leaves<pre>Kosher salt and freshly ground black pepper<pre>1 tablespoon extra virgin olive oil<pre>1 teaspoon balsamic vinegar<pre>chives<pre>Kosher salt and freshly ground black pepper<pre>" ,
+                    INSTRUCTIONS:"Set your broiler on high, and place stemmed and seeded pepper halves onto a sheet of aluminum foil, skin side up. Spritz with a little olive oil and broil for 5-10 minutes (this will depend on your oven, just keep an eye on your peppers you want the skin to be consistently black, but not burn your peppers to a crisp!). Addto a bowl and cover tightly with your aluminum foil, allowing the peppers to steam for another 10 mins. This is what will allow the skins to peel off easily<pre>In a saucepan, caramelize your onions in your remaining olive oil for about 10 minutes on medium low heat. Add garlic and continue to sautee for a minute more, followed by your tomatoes and their juices, squashed. Chop your peppers roughly and add those to the pot as well, together with thyme, parsley and bay leaf. Season with salt and pepper, and bring to a simmer.<pre>Continue to simmer over low heat until very soft and very little liquid remains, about 10 minutes, stirring occasionally. Discard herbs and puree with immersion blender. Reserve 1/2 cup of mixture and spread remainder in bottom of a 9 inch pie plate.<pre>Now for your vegetables. Thomas Keller appears to skip this step and I don't know why cause it's crazy. When making squash recipes I almost ALWAYS sweat out my veggies by sprinkling fresh slices with a bit of salt. Lay them out on paper towels for a good 10 minutes, then pat dry-- this helps prevent them from becoming all gross and soggy while they cook.<pre>Arrange vegetable slices in concentric circles over the sauce, in this order: zucchini, eggplant, squash and tomatoes. Roughly 1/4 inch of each slice should be exposed. You might have a few extra vegetable slices-- if so, these will keep for a couple of days, don't stress. Mix garlic, oil and thyme leaves in bowl and season with salt and pepper to taste-- brush the surface of the vegetables with the mix and lookit how pretty.<pre>Cover tightly with aluminum foil and bake in an oven preheaded to 275-- the vegetables will be tender after about 2 hours. Uncover, and continue to bake for an additional 30 minutes to steam off any excess liquid.<pre>Cover tightly with aluminum foil and bake in an oven preheaded to 275-- the vegetables will be tender after about 2 hours. Uncover, and continue to bake for an additional 30 minutes to steam off any excess liquid.<pre>When ready to serve, combine 2 tbsp of your reserved 1/2 cup of tomato/pepper base sauce with oil, vinegar, and salt/pepper to taste. Drizzle this in a circle around your plate and sprinkle with fresh herbs. In the center of the plate, wrap your layered vegetables vertically around themselves, almost like you would if you were forming a rosebud. Then, take another line of layered vegetables and lay it over the top of your vegetable spiral"},
+            ];
+    
+            const recipesList = document.getElementById("recipes");
+            recipes.forEach((recipe) => {
+                const recipeInList = document.createElement("li");
+                recipeInList.innerHTML = `<button id="${recipe.name}" onClick="listIngredients('${recipe.name}')">${recipe.name}</button>`;
+                recipesList.appendChild(recipeInList);
+            });
+    
+            function listIngredients(name) {
+                const recipe = recipes.find((recipe) => recipe.name === name);
+                const ingredients = recipe.INGREDIENTS.replace(/<pre>/g, '<br>');
+                const instructions = recipe.INSTRUCTIONS.replace(/<pre>/g, '<br>');
+                const listText = `${recipe.name} is a ${recipe.kind}.<br><strong>Ingredients:</strong><br>${ingredients}<br><strong>Instructions:</strong><br>${instructions}`;
+
+                const listElement = document.getElementById("list");
+                listElement.innerHTML = `<div style='white-space: pre-wrap;'>${listText}</div>`; // Use pre-wrap for better formatting
+            }
+        </script>
+    </section>
+    
+    <section>
+        <h2>Contact/About</h2>
+        <p>Email:dqngyen1@memphis.edu</p>
+    </section>
+  
+    <footer>
+        <p>© 2024 Danny</p>
+    </footer>   
+
+
+
+</body>
+</html>
